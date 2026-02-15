@@ -1,0 +1,24 @@
+{
+  "name": "secrets-vault",
+  "version": "1.0.0",
+  "description": "General-purpose secrets vault for storing sensitive configuration data",
+  "main": "src/index.js",
+  "bin": {
+    "secrets": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "jest"
+  },
+  "keywords": ["secrets", "vault", "configuration", "security"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
